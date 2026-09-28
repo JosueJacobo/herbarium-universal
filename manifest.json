@@ -11,4 +11,12 @@
   "theme_color": "rgb(8, 13, 10)",
   "id": "1234",
   "lang": "es"
+  "icons": [
+    {
+      "src": "1790604402270.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
