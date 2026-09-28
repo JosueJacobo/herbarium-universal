@@ -1,21 +1,13 @@
 {
-  "name": "Herbarium",
-  "short_name": "Herbarium",
-  "description": "Álbum e itinerario interactivo para descubrir y coleccionar especies botánicas.",
-  "start_url": "./index.html",
+  "background_color": "rgb(8, 13, 10)",
+  "description": "Colecciona especies botánicas, abre sobres interactivos, completa tu herbario y aprende con fichas técnicas y trivias.",
+  "dir": "ltr",
   "display": "standalone",
-  "background_color": "#080d0a",
-  "theme_color": "#080d0a",
-  "icons": [
-    {
-      "src": "https://cdn-icons-png.flaticon.com/512/628/628324.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "https://cdn-icons-png.flaticon.com/512/628/628324.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
+  "name": "Herbarium EJJG",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Herbarium",
+  "start_url": "/",
+  "theme_color": "rgb(8, 13, 10)",
+  "id": "1234"
 }
