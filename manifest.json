@@ -1,0 +1,21 @@
+{
+  "name": "Herbarium",
+  "short_name": "Herbarium",
+  "description": "Álbum e itinerario interactivo para descubrir y coleccionar especies botánicas.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#080d0a",
+  "theme_color": "#080d0a",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/628/628324.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/628/628324.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
