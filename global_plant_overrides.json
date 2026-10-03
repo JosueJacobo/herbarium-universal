@@ -28,5 +28,11 @@
     "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_orchid-04_1791071144917.jpg",
     "updatedAt": 1791071148515,
     "updatedBy": "Emilio Jacob"
+  },
+  "succ-05": {
+    "plantId": "succ-05",
+    "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_succ-05_1791071198523.jpg",
+    "updatedAt": 1791071204323,
+    "updatedBy": "Emilio Jacob"
   }
 }
