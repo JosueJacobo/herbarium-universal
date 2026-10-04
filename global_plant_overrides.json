@@ -43,8 +43,14 @@
   },
   "exo-13": {
     "plantId": "exo-13",
-    "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_exo-13_1791139535300.jpg",
-    "updatedAt": 1791139540198,
+    "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_exo-13_1791139554742.jpg",
+    "updatedAt": 1791139565135,
+    "updatedBy": "Emilio Jacob"
+  },
+  "orchid-06": {
+    "plantId": "orchid-06",
+    "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_orchid-06_1791157805833.jpg",
+    "updatedAt": 1791157810308,
     "updatedBy": "Emilio Jacob"
   }
 }
