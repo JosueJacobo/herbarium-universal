@@ -64,5 +64,11 @@
     "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_cact-14_1791160481577.jpg",
     "updatedAt": 1791160484082,
     "updatedBy": "Emilio Jacob"
+  },
+  "carn-03": {
+    "plantId": "carn-03",
+    "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_carn-03_1791333766615.jpg",
+    "updatedAt": 1791333770609,
+    "updatedBy": "Emilio Jacob"
   }
 }
