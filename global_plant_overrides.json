@@ -160,5 +160,11 @@
     "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_aqua-06_1791816716409.jpg",
     "updatedAt": 1791816718613,
     "updatedBy": "Emilio Jacob"
+  },
+  "cact-21": {
+    "plantId": "cact-21",
+    "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_cact-21_1791816734798.jpg",
+    "updatedAt": 1791816736738,
+    "updatedBy": "Emilio Jacob"
   }
 }
