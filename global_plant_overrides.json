@@ -154,5 +154,11 @@
     "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_selv-03_1791816695775.jpg",
     "updatedAt": 1791816698441,
     "updatedBy": "Emilio Jacob"
+  },
+  "aqua-06": {
+    "plantId": "aqua-06",
+    "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_aqua-06_1791816716409.jpg",
+    "updatedAt": 1791816718613,
+    "updatedBy": "Emilio Jacob"
   }
 }
