@@ -148,5 +148,11 @@
     "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_exo-16_1791816641610.jpg",
     "updatedAt": 1791816644275,
     "updatedBy": "Emilio Jacob"
+  },
+  "selv-03": {
+    "plantId": "selv-03",
+    "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_selv-03_1791816695775.jpg",
+    "updatedAt": 1791816698441,
+    "updatedBy": "Emilio Jacob"
   }
 }
