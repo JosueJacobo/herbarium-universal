@@ -166,5 +166,11 @@
     "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_cact-21_1791816734798.jpg",
     "updatedAt": 1791816736738,
     "updatedBy": "Emilio Jacob"
+  },
+  "orch-17": {
+    "plantId": "orch-17",
+    "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_orch-17_1791820992899.jpg",
+    "updatedAt": 1791820995491,
+    "updatedBy": "Emilio Jacob"
   }
 }
