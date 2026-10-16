@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eliminación de Cuenta y Datos · Herbarium</title>
+    <meta name="description" content="Solicitud de eliminación de cuenta y datos de usuario para la aplicación Herbarium · Álbum de Especies Botánicas." />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./images/launchericon-192x192.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg-color: #0c1410;
+        --card-bg: #121e17;
+        --card-border: #1e3327;
+        --text-primary: #e6ede8;
+        --text-secondary: #9db2a4;
+        --accent-emerald: #10b981;
+        --accent-red: #ef4444;
+        --accent-gold: #f59e0b;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+        background-color: var(--bg-color);
+        color: var(--text-primary);
+        line-height: 1.7;
+        padding: 24px 16px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: var(--card-bg);
+        border: 1px solid var(--card-border);
+        border-radius: 20px;
+        padding: 40px 32px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+      }
+      header {
+        border-bottom: 1px solid var(--card-border);
+        padding-bottom: 24px;
+        margin-bottom: 32px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+      }
+      .app-icon {
+        width: 60px;
+        height: 60px;
+        border-radius: 14px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+      }
+      h1 {
+        font-family: 'Cinzel', serif;
+        font-size: 24px;
+        color: #ffffff;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+      }
+      .subtitle {
+        color: #f87171;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+      .app-meta {
+        display: inline-block;
+        background: rgba(16, 185, 129, 0.12);
+        color: #6ee7b7;
+        padding: 4px 12px;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 8px;
+      }
+      h2 {
+        font-family: 'Cinzel', serif;
+        font-size: 18px;
+        color: #f3f4f6;
+        margin-top: 28px;
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      h2::before {
+        content: "📋";
+        font-size: 16px;
+      }
+      p {
+        color: var(--text-secondary);
+        font-size: 14px;
+        margin-bottom: 14px;
+      }
+      ul, ol {
+        padding-left: 20px;
+        margin-bottom: 16px;
+      }
+      li {
+        color: var(--text-secondary);
+        font-size: 14px;
+        margin-bottom: 8px;
+      }
+      .danger-box {
+        background: rgba(239, 68, 68, 0.1);
+        border: 1px solid rgba(239, 68, 68, 0.3);
+        border-radius: 14px;
+        padding: 18px 22px;
+        margin: 20px 0;
+      }
+      .danger-box strong {
+        color: #fca5a5;
+      }
+      .card-box {
+        background: rgba(16, 185, 129, 0.06);
+        border: 1px solid rgba(16, 185, 129, 0.2);
+        border-radius: 14px;
+        padding: 20px;
+        margin: 20px 0;
+      }
+      .form-group {
+        margin-bottom: 16px;
+      }
+      label {
+        display: block;
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 6px;
+        color: #e5e7eb;
+      }
+      input[type="text"], input[type="email"], textarea {
+        width: 100%;
+        padding: 12px 14px;
+        background: #09100c;
+        border: 1px solid var(--card-border);
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 14px;
+        font-family: inherit;
+      }
+      input:focus, textarea:focus {
+        outline: none;
+        border-color: var(--accent-emerald);
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        padding: 12px 24px;
+        border-radius: 12px;
+        font-size: 13px;
+        font-weight: 700;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.2s;
+        border: none;
+      }
+      .btn-danger {
+        background: #dc2626;
+        color: #ffffff;
+      }
+      .btn-danger:hover {
+        background: #b91c1c;
+      }
+      .btn-secondary {
+        background: #182c21;
+        border: 1px solid var(--accent-emerald);
+        color: #ffffff;
+      }
+      .btn-secondary:hover {
+        background: var(--accent-emerald);
+        color: #0c1410;
+      }
+      a {
+        color: var(--accent-emerald);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      footer {
+        text-align: center;
+        margin-top: 32px;
+        padding-top: 20px;
+        border-top: 1px solid var(--card-border);
+        font-size: 12px;
+        color: #6b7280;
+      }
+      @media (max-width: 600px) {
+        .container {
+          padding: 24px 18px;
+        }
+        h1 {
+          font-size: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="./images/launchericon-192x192.png" alt="Herbarium Icon" class="app-icon" />
+        <div>
+          <span class="subtitle">Google Play Data Safety</span>
+          <h1>Eliminación de Cuenta y Datos</h1>
+          <span class="app-meta">Aplicación: Herbarium · Álbum de Especies Botánicas (Desarrollador: Emilio Jacob)</span>
+        </div>
+      </header>
+
+      <section>
+        <p>
+          En cumplimiento con las políticas de privacidad y seguridad de datos de <strong>Google Play Store</strong>, los usuarios de <strong>Herbarium · Álbum de Especies Botánicas</strong> tienen el derecho garantizado de solicitar la eliminación total y permanente de su cuenta y de todos los datos asociados.
+        </p>
+
+        <div class="danger-box">
+          <p style="margin-bottom: 0;">
+            <strong>Aviso Importante:</strong> La eliminación de tu cuenta es permanente e irreversible. Al proceder, se borrarán todos tus progresos en el herbario, especies coleccionadas, balance de semillas, estampas repetidas, cromos compostados y configuraciones asociadas a tu perfil.
+          </p>
+        </div>
+
+        <h2>1. Datos que se Eliminan al Procesar la Solicitud</h2>
+        <p>Cuando solicitas la eliminación de tu cuenta en Herbarium, se eliminan permanentemente los siguientes datos:</p>
+        <ul>
+          <li><strong>Perfil de usuario:</strong> Nombre de usuario, alias de botánico, contraseña cifrada y avatar seleccionado.</li>
+          <li><strong>Inventario de especies botánicas:</strong> Registro de especies desbloqueadas, cromos repetidos y cromos descubiertos.</li>
+          <li><strong>Economía del juego:</strong> Saldo acumulado de semillas y esencia de clorofila.</li>
+          <li><strong>Historial de actividades:</strong> Registro de trivias botánicas respondidas, misiones de expedición completadas y tiradas de ruleta.</li>
+          <li><strong>Fotos y notas personalizadas:</strong> Cualquier fotografía personalizada o apunte guardado en las fichas botánicas del usuario.</li>
+        </ul>
+
+        <h2>2. Periodo de Conservación y Eliminación de Datos</h2>
+        <p>
+          No conservamos datos personales adicionales tras la eliminación. Los datos almacenados en el servidor se purgan de forma definitiva en un plazo máximo de <strong>48 horas hábiles</strong> tras recibir la solicitud.
+        </p>
+
+        <h2>3. Cómo Solicitar la Eliminación de tu Cuenta y Datos</h2>
+        <p>Puedes solicitar el borrado de tu cuenta a través de cualquiera de los siguientes métodos sencillos:</p>
+
+        <div class="card-box">
+          <h3 style="color: #6ee7b7; margin-bottom: 10px; font-size: 15px;">Método A: Directamente desde la Aplicación</h3>
+          <ol>
+            <li>Abre la aplicación <strong>Herbarium</strong> en tu dispositivo Android o navegador.</li>
+            <li>Toca el botón de tu perfil o pasaporte botánico (arriba a la derecha).</li>
+            <li>En la sección de cuenta, pulsa en <strong>"Reiniciar / Eliminar Datos de Cuenta"</strong>.</li>
+            <li>Confirma la acción para purgar inmediatamente todo tu progreso del dispositivo.</li>
+          </ol>
+        </div>
+
+        <div class="card-box">
+          <h3 style="color: #6ee7b7; margin-bottom: 10px; font-size: 15px;">Método B: Solicitud por Correo Electrónico (Para Google Play)</h3>
+          <p>
+            Si ya desinstalaste la aplicación o deseas que verifiquemos y eliminemos cualquier registro en nuestros servidores, envía un correo directamente a nuestro equipo con tu solicitud:
+          </p>
+          <div style="margin: 16px 0;">
+            <a
+              href="mailto:emiliojacobg@gmail.com?subject=Solicitud%20de%20Eliminaci%C3%B3n%20de%20Cuenta%20-%20Herbarium&body=Hola%20Emilio,%0A%0ASolicito%20la%20eliminaci%C3%B3n%20permanente%20de%20mi%20cuenta%20y%20todos%20los%20datos%20asociados%20en%20Herbarium.%0A%0ANombre%20de%20usuario%20o%20correo%20asociado:%20%0AFecha%20de%20la%20solicitud:%20"
+              class="btn btn-danger"
+            >
+              ✉️ Enviar Solicitud de Borrado por Email (emiliojacobg@gmail.com)
+            </a>
+          </div>
+          <p style="font-size: 12px; color: #9ca3af;">
+            * Por favor incluye en el correo tu nombre de usuario o el identificador que usaste al crear tu perfil para procesar la baja inmediata.
+          </p>
+        </div>
+
+        <h2>4. Formulario Rápido de Solicitud en Línea</h2>
+        <p>También puedes enviar tu solicitud directamente desde este formulario:</p>
+        
+        <form onsubmit="handleSubmitRequest(event)" class="card-box" style="margin-top: 12px;">
+          <div class="form-group">
+            <label for="username">Nombre de Usuario o Alias en Herbarium *</label>
+            <input type="text" id="username" required placeholder="Ej: ExploradorBotanico o tu nombre de cuenta" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Correo Electrónico de Contacto *</label>
+            <input type="email" id="email" required placeholder="tu-correo@ejemplo.com" />
+          </div>
+
+          <div class="form-group">
+            <label for="reason">Motivo (Opcional)</label>
+            <textarea id="reason" rows="3" placeholder="Indica si deseas que eliminemos algún dato en específico o la cuenta completa"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-danger" style="width: 100%;">
+            Confirmar y Enviar Solicitud de Eliminación
+          </button>
+          
+          <div id="form-feedback" style="display: none; margin-top: 14px; padding: 12px; border-radius: 8px; background: rgba(16, 185, 129, 0.2); border: 1px solid #10b981; color: #6ee7b7; font-size: 13px; text-align: center;">
+            ✓ Solicitud generada con éxito. Abriendo tu cliente de correo para confirmar el envío...
+          </div>
+        </form>
+
+        <h2>5. Información de Contacto del Desarrollador</h2>
+        <p>Para cualquier inquietud sobre la gestión de tus datos o esta política de eliminación:</p>
+        <p>
+          <strong>Desarrollador Responsable:</strong> Emilio Jacob<br />
+          <strong>Email:</strong> <a href="mailto:emiliojacobg@gmail.com">emiliojacobg@gmail.com</a><br />
+          <strong>Aplicación:</strong> Herbarium · Álbum de Especies Botánicas<br />
+          <strong>Política de Privacidad Completa:</strong> <a href="./privacy.html" target="_blank">Consultar Política de Privacidad</a>
+        </p>
+
+        <div style="margin-top: 32px; display: flex; gap: 12px; flex-wrap: wrap;">
+          <a href="./index.html" class="btn btn-secondary">
+            ← Volver a Herbarium
+          </a>
+          <a href="./privacy.html" class="btn btn-secondary">
+            Ver Política de Privacidad
+          </a>
+        </div>
+      </section>
+
+      <footer>
+        <p>© 2026 Herbarium · Álbum de Especies Botánicas. Desarrollado por Emilio Jacob.</p>
+      </footer>
+    </div>
+
+    <script>
+      function handleSubmitRequest(e) {
+        e.preventDefault();
+        const username = document.getElementById('username').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const reason = document.getElementById('reason').value.trim();
+        const feedback = document.getElementById('form-feedback');
+
+        feedback.style.display = 'block';
+
+        const subject = encodeURIComponent('Solicitud de Eliminación de Cuenta - Herbarium');
+        const body = encodeURIComponent(
+          `Hola Emilio,\n\nSolicito formalmente la eliminación permanente de mi cuenta y datos en la aplicación Herbarium.\n\nUsuario: ${username}\nEmail: ${email}\nMotivo/Detalles: ${reason || 'Eliminación total solicitada'}\nFecha: ${new Date().toLocaleDateString()}`
+        );
+
+        setTimeout(() => {
+          window.location.href = `mailto:emiliojacobg@gmail.com?subject=${subject}&body=${body}`;
+        }, 800);
+      }
+    </script>
+  </body>
+</html>
