@@ -3,7 +3,27 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
+      "package_name": "herbarium.ejjg.album",
+      "sha256_cert_fingerprints": [
+        "6C:F0:97:5D:6D:0C:59:A9:61:90:C7:41:6D:51:F2:FF:0F:24:02:CC:2C:C1:68:83:8D:15:36:EE:75:A8:0A:7A"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
       "package_name": "io.github.josuejacobo.twa",
+      "sha256_cert_fingerprints": [
+        "6C:F0:97:5D:6D:0C:59:A9:61:90:C7:41:6D:51:F2:FF:0F:24:02:CC:2C:C1:68:83:8D:15:36:EE:75:A8:0A:7A"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "Herbarium.album.ejjg",
       "sha256_cert_fingerprints": [
         "6C:F0:97:5D:6D:0C:59:A9:61:90:C7:41:6D:51:F2:FF:0F:24:02:CC:2C:C1:68:83:8D:15:36:EE:75:A8:0A:7A"
       ]

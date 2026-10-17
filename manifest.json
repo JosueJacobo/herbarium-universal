@@ -4,7 +4,7 @@
   "description": "Colecciona especies botánicas, abre sobres interactivos, completa tu herbario y aprende con fichas técnicas y trivias.",
   "start_url": "./",
   "scope": "./",
-  "id": "herbarium-botanical-app",
+  "id": "herbarium.ejjg.album",
   "display": "fullscreen",
   "display_override": [
     "fullscreen",
