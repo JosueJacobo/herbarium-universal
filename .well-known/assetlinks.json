@@ -3,9 +3,9 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.josuejacobo.herbarium",
+      "package_name": "io.github.josuejacobo.twa",
       "sha256_cert_fingerprints": [
-        "14:6D:E9:44:AB:F0:60:73:86:8E:EB:F6:1B:70:E4:04:06:0F:74:9F:8B:E3:64:89:C8:47:04:78:E5:6F:4D:2A"
+        "6C:F0:97:5D:6D:0C:59:A9:61:90:C7:41:6D:51:F2:FF:0F:24:02:CC:2C:C1:68:83:8D:15:36:EE:75:A8:0A:7A"
       ]
     }
   },
@@ -15,6 +15,7 @@
       "namespace": "android_app",
       "package_name": "io.github.josuejacobo.herbarium",
       "sha256_cert_fingerprints": [
+        "6C:F0:97:5D:6D:0C:59:A9:61:90:C7:41:6D:51:F2:FF:0F:24:02:CC:2C:C1:68:83:8D:15:36:EE:75:A8:0A:7A",
         "14:6D:E9:44:AB:F0:60:73:86:8E:EB:F6:1B:70:E4:04:06:0F:74:9F:8B:E3:64:89:C8:47:04:78:E5:6F:4D:2A"
       ]
     }
@@ -23,28 +24,9 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "io.github.josuejacobo.herbarium_universal",
+      "package_name": "com.josuejacobo.herbarium",
       "sha256_cert_fingerprints": [
-        "14:6D:E9:44:AB:F0:60:73:86:8E:EB:F6:1B:70:E4:04:06:0F:74:9F:8B:E3:64:89:C8:47:04:78:E5:6F:4D:2A"
-      ]
-    }
-  },
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "io.github.josuejacobo.twa",
-      "sha256_cert_fingerprints": [
-        "14:6D:E9:44:AB:F0:60:73:86:8E:EB:F6:1B:70:E4:04:06:0F:74:9F:8B:E3:64:89:C8:47:04:78:E5:6F:4D:2A"
-      ]
-    }
-  },
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.josuejacobo.herbariumuniversal",
-      "sha256_cert_fingerprints": [
+        "6C:F0:97:5D:6D:0C:59:A9:61:90:C7:41:6D:51:F2:FF:0F:24:02:CC:2C:C1:68:83:8D:15:36:EE:75:A8:0A:7A",
         "14:6D:E9:44:AB:F0:60:73:86:8E:EB:F6:1B:70:E4:04:06:0F:74:9F:8B:E3:64:89:C8:47:04:78:E5:6F:4D:2A"
       ]
     }
