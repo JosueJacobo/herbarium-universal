@@ -18,5 +18,35 @@
         "14:6D:E9:44:AB:F0:60:73:86:8E:EB:F6:1B:70:E4:04:06:0F:74:9F:8B:E3:64:89:C8:47:04:78:E5:6F:4D:2A"
       ]
     }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.josuejacobo.herbarium_universal",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:44:AB:F0:60:73:86:8E:EB:F6:1B:70:E4:04:06:0F:74:9F:8B:E3:64:89:C8:47:04:78:E5:6F:4D:2A"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.josuejacobo.twa",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:44:AB:F0:60:73:86:8E:EB:F6:1B:70:E4:04:06:0F:74:9F:8B:E3:64:89:C8:47:04:78:E5:6F:4D:2A"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.josuejacobo.herbariumuniversal",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:44:AB:F0:60:73:86:8E:EB:F6:1B:70:E4:04:06:0F:74:9F:8B:E3:64:89:C8:47:04:78:E5:6F:4D:2A"
+      ]
+    }
   }
 ]
