@@ -1,0 +1,24 @@
+[
+  {
+    "userId": "user_emiliojacobg_curator",
+    "username": "emiliojacobg",
+    "displayName": "Emilio Jacob",
+    "avatar": "🌲",
+    "title": "Curador Principal del Herbario",
+    "isAdmin": true,
+    "discoveredCount": 14,
+    "totalSpeciesCount": 1000,
+    "completionPercentage": 1.4,
+    "totalSpecimens": 15,
+    "rarityCounts": {
+      "comun": 10,
+      "rara": 3,
+      "epica": 1,
+      "legendaria": 0
+    },
+    "seeds": 0,
+    "chlorophyll": 50,
+    "lastUpdated": 1792453149771,
+    "isCurrentUser": false
+  }
+]
