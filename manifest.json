@@ -5,10 +5,10 @@
   "start_url": "./",
   "scope": "./",
   "id": "herbarium.ejjg.album",
-  "display": "fullscreen",
+  "display": "standalone",
   "display_override": [
-    "fullscreen",
-    "standalone"
+    "standalone",
+    "fullscreen"
   ],
   "background_color": "#0c1410",
   "theme_color": "#0c1410",
