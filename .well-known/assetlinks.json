@@ -1,65 +1,83 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "herbarium.ejjg.album",
       "sha256_cert_fingerprints": [
+        "E7:90:23:4A:B0:F5:45:FF:10:0C:89:59:03:A7:71:22:1C:1B:58:39:8B:AA:0C:0F:CB:22:07:81:98:A3:D1:96",
         "E2:0A:1D:80:BB:4A:5D:54:00:06:D8:C1:6E:5F:D7:E2:EC:FC:30:66:87:8D:14:BA:0D:1F:71:17:47:6B:74:41",
         "6C:F0:97:5D:6D:0C:59:A9:61:90:C7:41:6D:51:F2:FF:0F:24:02:CC:2C:C1:68:83:8D:15:36:EE:75:A8:0A:7A"
       ]
     }
   },
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "herbarium.ejjg.album.",
       "sha256_cert_fingerprints": [
+        "E7:90:23:4A:B0:F5:45:FF:10:0C:89:59:03:A7:71:22:1C:1B:58:39:8B:AA:0C:0F:CB:22:07:81:98:A3:D1:96",
         "E2:0A:1D:80:BB:4A:5D:54:00:06:D8:C1:6E:5F:D7:E2:EC:FC:30:66:87:8D:14:BA:0D:1F:71:17:47:6B:74:41",
         "6C:F0:97:5D:6D:0C:59:A9:61:90:C7:41:6D:51:F2:FF:0F:24:02:CC:2C:C1:68:83:8D:15:36:EE:75:A8:0A:7A"
       ]
     }
   },
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "io.github.josuejacobo.twa",
-      "sha256_cert_fingerprints": [
-        "E2:0A:1D:80:BB:4A:5D:54:00:06:D8:C1:6E:5F:D7:E2:EC:FC:30:66:87:8D:14:BA:0D:1F:71:17:47:6B:74:41",
-        "6C:F0:97:5D:6D:0C:59:A9:61:90:C7:41:6D:51:F2:FF:0F:24:02:CC:2C:C1:68:83:8D:15:36:EE:75:A8:0A:7A"
-      ]
-    }
-  },
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "Herbarium.album.ejjg",
       "sha256_cert_fingerprints": [
+        "E7:90:23:4A:B0:F5:45:FF:10:0C:89:59:03:A7:71:22:1C:1B:58:39:8B:AA:0C:0F:CB:22:07:81:98:A3:D1:96",
         "E2:0A:1D:80:BB:4A:5D:54:00:06:D8:C1:6E:5F:D7:E2:EC:FC:30:66:87:8D:14:BA:0D:1F:71:17:47:6B:74:41",
         "6C:F0:97:5D:6D:0C:59:A9:61:90:C7:41:6D:51:F2:FF:0F:24:02:CC:2C:C1:68:83:8D:15:36:EE:75:A8:0A:7A"
       ]
     }
   },
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.josuejacobo.twa",
+      "sha256_cert_fingerprints": [
+        "E7:90:23:4A:B0:F5:45:FF:10:0C:89:59:03:A7:71:22:1C:1B:58:39:8B:AA:0C:0F:CB:22:07:81:98:A3:D1:96",
+        "E2:0A:1D:80:BB:4A:5D:54:00:06:D8:C1:6E:5F:D7:E2:EC:FC:30:66:87:8D:14:BA:0D:1F:71:17:47:6B:74:41",
+        "6C:F0:97:5D:6D:0C:59:A9:61:90:C7:41:6D:51:F2:FF:0F:24:02:CC:2C:C1:68:83:8D:15:36:EE:75:A8:0A:7A"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "io.github.josuejacobo.herbarium",
       "sha256_cert_fingerprints": [
+        "E7:90:23:4A:B0:F5:45:FF:10:0C:89:59:03:A7:71:22:1C:1B:58:39:8B:AA:0C:0F:CB:22:07:81:98:A3:D1:96",
         "E2:0A:1D:80:BB:4A:5D:54:00:06:D8:C1:6E:5F:D7:E2:EC:FC:30:66:87:8D:14:BA:0D:1F:71:17:47:6B:74:41",
         "6C:F0:97:5D:6D:0C:59:A9:61:90:C7:41:6D:51:F2:FF:0F:24:02:CC:2C:C1:68:83:8D:15:36:EE:75:A8:0A:7A"
       ]
     }
   },
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.josuejacobo.herbarium",
       "sha256_cert_fingerprints": [
+        "E7:90:23:4A:B0:F5:45:FF:10:0C:89:59:03:A7:71:22:1C:1B:58:39:8B:AA:0C:0F:CB:22:07:81:98:A3:D1:96",
         "E2:0A:1D:80:BB:4A:5D:54:00:06:D8:C1:6E:5F:D7:E2:EC:FC:30:66:87:8D:14:BA:0D:1F:71:17:47:6B:74:41",
         "6C:F0:97:5D:6D:0C:59:A9:61:90:C7:41:6D:51:F2:FF:0F:24:02:CC:2C:C1:68:83:8D:15:36:EE:75:A8:0A:7A"
       ]
