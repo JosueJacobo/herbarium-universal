@@ -20,5 +20,27 @@
     "chlorophyll": 50,
     "lastUpdated": 1792938620904,
     "isCurrentUser": false
+  },
+  {
+    "userId": "user_1792448701773_crtqx",
+    "username": "michael_446",
+    "displayName": "Michael",
+    "avatar": "🌱",
+    "title": "Botánico Explorador",
+    "isAdmin": false,
+    "discoveredCount": 2,
+    "totalSpeciesCount": 1000,
+    "completionPercentage": 0.2,
+    "totalSpecimens": 2,
+    "rarityCounts": {
+      "comun": 2,
+      "rara": 0,
+      "epica": 0,
+      "legendaria": 0
+    },
+    "seeds": 500,
+    "chlorophyll": 50,
+    "lastUpdated": 1792942401496,
+    "isCurrentUser": false
   }
 ]
