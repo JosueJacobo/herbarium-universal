@@ -220,5 +220,11 @@
     "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_plant-0170_1792931718385.jpg",
     "updatedAt": 1792931720902,
     "updatedBy": "Emilio Jacob"
+  },
+  "plant-0166": {
+    "plantId": "plant-0166",
+    "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_plant-0166_1792932328064.jpg",
+    "updatedAt": 1792932330721,
+    "updatedBy": "Emilio Jacob"
   }
 }
