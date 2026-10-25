@@ -238,5 +238,17 @@
     "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_orch-18_1792935330278.jpg",
     "updatedAt": 1792935345087,
     "updatedBy": "Emilio Jacob"
+  },
+  "fern-10": {
+    "plantId": "fern-10",
+    "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_fern-10_1792935510791.jpg",
+    "updatedAt": 1792935513881,
+    "updatedBy": "Emilio Jacob"
+  },
+  "cact-23": {
+    "plantId": "cact-23",
+    "customImageUrl": "https://raw.githubusercontent.com/JosueJacobo/herbarium-universal/main/images/plant_cact-23_1792936125796.jpg",
+    "updatedAt": 1792936128051,
+    "updatedBy": "Emilio Jacob"
   }
 }
