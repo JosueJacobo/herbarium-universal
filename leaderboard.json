@@ -63,5 +63,26 @@
     "chlorophyll": 50,
     "lastUpdated": 1793066362737,
     "isCurrentUser": false
+  },
+  {
+    "userId": "guest_n0jtwm",
+    "username": "explorador_jtwm",
+    "displayName": "Explorador Silvestre",
+    "avatar": "🌱",
+    "title": "Explorador Botánico",
+    "discoveredCount": 2,
+    "totalSpeciesCount": 1000,
+    "completionPercentage": 0.2,
+    "totalSpecimens": 2,
+    "rarityCounts": {
+      "comun": 2,
+      "rara": 0,
+      "epica": 0,
+      "legendaria": 0
+    },
+    "seeds": 500,
+    "chlorophyll": 50,
+    "lastUpdated": 1793072978574,
+    "isCurrentUser": false
   }
 ]
